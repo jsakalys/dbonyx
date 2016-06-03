@@ -156,13 +156,17 @@ h4 {
   padding: 0;
   margin: 0;
   min-height: 48px;
-  color: #BDBDBD !important; }
+  color: #BDBDBD !important;
+  margin-left: 0px !important; }
 
 .navbar-brand:hover {
   color: #E0E0E0 !important; }
 
 .navbar-brand .dark {
   color: #000000; }
+
+.navbar-nav {
+  margin: 0px; }
 
 .navbar-nav li a {
   line-height: 48px;
@@ -259,8 +263,17 @@ h4 {
   width: 190px !important; }
 
 @media screen and (max-width: 767px) {
-  #primary-nav ul li a {
-    font-size: 10px; } }
+  #nav-container {
+    border-radius: 0px; }
+  #primary-nav ul {
+    width: 100%; }
+    #primary-nav ul li {
+      display: block;
+      width: 100%;
+      text-align: center; }
+  #main-content {
+    border-radius: 0px !important;
+    border: none !important; } }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   #primary-nav ul li a {
